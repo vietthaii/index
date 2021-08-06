@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #8F8685;
+}
+.slider
+{
+	height: 800px;
+	background-color:blue;
+}
+.nd01
+{
+	height: 250px;
+	background-color: crimson;
+}
+.nd02
+{
+	height: 250px;
+	background-color: darkblue;
+}
+.nd03
+{
+	height: 250px;
+	background-color: red;
+}
+.nd04
+{
+	height: 250px;
+	background-color: yellow;
+}
+.parallax-container {
+
+    top: 0;
+    left: -1px;
+    right: -1px;
+    bottom: 0;
+    z-index: 0;
+}
+
+
+
+
+
+.video{
+	position: relative;
+}
+.img{
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+}
+.img{
+	vertical-align: middle;
+    border-style: none;
+}
+.video-link{
+	position: absolute;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    transition: .3s ease-out all;
+}
+.button {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding: 10px 38px 12px;
+    font-size: 16px;
+    line-height: 1.25;
+    border: 1.5px solid;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    border-radius: 30px;
+    user-select: none;
+}
+.button-default{
+	color:#2E3E60;
+	background: transparent;
+	border-color: #E5E5E5;
+}
+a, a:focus, a:active, a:hover {
+    text-decoration: none;
+}
+a {
+    color: #DD87A5;
+    text-decoration: none;
+    background-color: transparent;
+}
+/*Meet Our Exoerts*/
+.divider::after {
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 2px;
+    background-color: #F5DA87;
+	padding: 2px;
+}
+.box-expert-image {
+    display: inline-block;
+    max-width: 200px;
+    max-height: 200px;
+}
+element.style {
+    background-image: url(images/bg-02.jpg);
+}
+/*Pre-footer*/
+.container {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
